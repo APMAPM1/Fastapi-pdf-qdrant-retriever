@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+qdrant-client >= 1.7.0
+sentence-transformers
+nltk
+python-dotenv
+PyMuPDF # For efficient PDF text extraction (library name is fitz)
+python-multipart # Required by FastAPI for file uploads
+uuid # For generating unique chunk IDs (standard library, but good to note)
